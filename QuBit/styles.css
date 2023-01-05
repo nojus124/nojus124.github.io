@@ -1,0 +1,1065 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Roboto&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    position:absolute;
+}
+.visas{
+    width:100%;
+    box-sizing:content-box;
+    overflow-x:hidden;
+}
+.Header{
+    box-sizing:border-box;
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    padding-top:15px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.BarsNuotrauka{
+    width:40px;
+    height:40px;
+    display:none;
+}
+.Elementai1{
+    width:20%;
+    padding-top:5px;
+    flex-wrap:wrap;
+}
+.Elementai2{
+    width:60%;
+    display:flex;
+    justify-content:space-between;
+}
+.Top3{
+    width:100%;
+    margin-bottom:100px;
+}
+.Elementai3{
+    display:flex;
+    justify-content:end;
+    width:30%;
+    padding-bottom:8px;
+}
+.Nuotrauka2{
+    float:right;
+    position:absolute;
+    width:100%;
+    height:700px;
+}
+.Mygtukas1{
+    padding-right:30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ImoniuNuotrauka{
+    width:102px;
+    height:41px;
+}
+.SocialEile{
+    width:250px;
+    display:flex;
+    justify-content:space-between;
+}
+.Social1{
+    width:10.29px;
+    height:18.21px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Social2{
+    width:18.61px;
+    height:15.04px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Social3{
+    width:17.08px;
+    height:17.42px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Social4{
+    width:16.66px;
+    height:16.66px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Social5{
+    width:21.37px;
+    height:15.04px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Tekstas1, .Tekstas2, .Tekstas3, .Tekstas4, .Tekstas5, .Tekstas6, .Tekstas7, .Tekstas8, .Tekstas9{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size:14px;
+    line-height:40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Tekstas42{
+    padding-bottom:30px;
+}
+.Tekstas43{
+    padding-bottom:11px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Tekstas44{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:white;
+padding-bottom:30px;
+}
+.Top11VidurysLOGO{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin-top:39.75px;
+    margin-bottom:24px;
+
+}
+.QubitNuotraukaLogoFooter{
+    text-decoration: none;
+    cursor: pointer;
+}
+.pasaulis{
+    width:22px;
+    height:18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Top11Teises{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    padding-bottom:82px;
+}
+.Tekstas45{
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color:White;
+    width:92%;
+}
+.Top11Lentele{
+    padding-top:57px;
+    padding-left:10px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.Top11LenteleDalys{
+    display:flex;
+}
+.Top11LenteleDalis1{
+    width:192.5px;
+}
+.Top11LenteleDalis2{
+    width:192.5px;
+}
+.TekstoApskliaudimas{
+    width:150px;
+}
+.Tekstas42{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:White;
+}
+.Tekstas43{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 130% */
+
+
+color: #FFFFFF;
+text-align: left;
+}
+.Tekstas41{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+padding-bottom:25px;
+}
+.Top11{
+    background-color:#20003C;
+    height:auto;
+}
+.SocialEile{
+    padding-bottom:40px;
+}
+.Tekstas40{
+    color:white;
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+padding-bottom:50px;
+}
+.Tekstas8{
+    background-color:#6F2CFF;
+    color:#FFFFFF;
+    border-radius:20px;
+    width:120px;
+    line-height:40px;
+    text-align:center;
+    height:40px;
+}
+.Tekstas46{
+    background-color:#6F2CFF;
+    color:#FFFFFF;
+    border-radius:20px;
+    width:120px;
+    line-height:40px;
+    text-align:center;
+    height:40px;
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0em;
+}
+.Tekstas9{
+    line-height:40px;
+    text-align:center;
+    height:40px;
+}
+.Tekstas10{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size:15px;
+    padding-bottom:19px;
+    z-index:1;
+    position:relative;
+}
+.Tekstas11{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:54px;
+    z-index:1;
+    position:relative;
+}
+.Tekstas12{
+    color:#6F2DFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:54px;
+    z-index:1;
+    padding-bottom:37px;
+    position:relative;
+}
+.Tekstas13{
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size:18px;
+    line-height:30px;
+    width:50%;
+    z-index:1;
+    position:relative;
+}
+#fname{
+    width:220px;
+    height:35px;
+    border-radius:18px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #6F2CFF;
+    border-radius: 27.5px 0px 0px 27.5px;
+    padding-left:20px;
+    padding-right:10px;
+    z-index:1;
+    position:relative;
+}
+.Top9Kartu{
+    position:relative;
+    top:50px;
+    left:50%;
+    width:100%;
+    margin: 0 auto;
+}
+#fname2{
+    width:200px;
+    height:35px;
+    border-radius:18px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #6F2CFF;
+    border-radius: 27.5px 0px 0px 27.5px;
+    padding-left:20px;
+    padding-right:10px;
+}
+.DemoBook{
+    width:150px;
+    height:35px;
+    text-decoration: none;
+    cursor: pointer;
+    line-height:35px;
+    box-sizing: border-box;
+    background-color: #6F2CFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    border-radius: 0px 27.5px 27.5px 0px;
+    font-weight: 400;
+    text-align:center;
+    font-size: 15px;
+    color: #FFFFFF;
+    z-index:1;
+    position:relative;
+}
+.Top9KartuTekstas{
+    position:relative;
+    left: 50%;
+    transform:translatex(-50%);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    width:50%;
+    height:350px;
+    top:30px;
+}
+.Top10{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.KartuTop9{
+    display:flex;
+    padding-bottom:40px;
+}
+.DemoBook2{
+    width:100px;
+    height:35px;
+    line-height:35px;
+    box-sizing: border-box;
+    background-color: #6F2CFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    border-radius: 0px 27.5px 27.5px 0px;
+    font-weight: 400;
+    text-align:center;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.Tekstas14{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    text-align:center;
+    padding-top:25px;
+}
+.Top1{
+    padding-bottom:0px;
+}
+.imones{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.imoniuNuotrauka{
+    padding:30px;
+}
+.Top7PaddingBottom{
+    padding-bottom:20px;
+}
+.Top7Bruksnys{
+    border-bottom: 2px solid white;
+    text-align: center;
+    width:fit-content;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Top7PaddingBottom2{
+    padding-bottom:3vw;
+}
+.Tekstas15
+{
+    width:160px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+cursor: pointer;
+/* identical to box height, or 150% */
+border-bottom: 4px solid #6F2CFF;
+text-align: center;
+
+color: #1C1C1C;
+}
+.MeetCustomers{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding-bottom:120px;
+}
+.Top3{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+.Side1{
+    width:50%;
+}
+.Side2{
+    width:50%;
+}
+.Kartu{
+    display:flex;
+    flex-wrap:wrap;
+}
+.Tekstas16, .Tekstas17{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+}
+.Tekstas18, .Tekstas19{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+.Tekstas19{
+    border-bottom: 1px solid black;
+    width:105px;
+    line-height:20px;
+}
+.Top6{
+    background: #F5F5F5;
+    height:800px;
+}
+.Tekstas17{
+    padding-bottom:40px;
+}
+.Mygtukas3{
+    padding-right:15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Top10ImonesNuotrauka{
+    width:140px;
+    height:182px;
+    padding-bottom:40px;
+}
+.Top7StulpChildChild{
+    background: #17002E;
+    overflow:hidden;
+    border-radius: 8px 10px 10px 8px;
+    width:50%;
+    height:160px;
+    padding:25px;
+}
+.PaddingRight{
+    margin-right:25px;
+}
+.PaddingBottom{
+    margin-bottom:25px;
+}
+.Tekstas35{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    
+}
+.Tekstas36{
+    color:white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.Tekstas33{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+}
+.Top7{
+    width:100%;
+}
+.Top7StulpChild{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    height:auto;
+    
+}
+.Top8Laukas{
+    width:80%;
+}
+.Top8Sides{
+    display:flex;
+    width:100%;
+
+}
+.Top8Side1{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Top8Side2{
+    display:flex;
+    justify-content:center;
+    width:50%;
+}
+.Tekstas37{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom:40px;
+
+}
+.Tekstas38{
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom:10px;
+}
+.AntTop9Nuotraukos{
+}
+.Tekstas39{
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom:80px;
+}
+.Top9Nuotrauka{
+    position:absolute;
+    width:100%;
+    height:350px;
+}
+.Top9{
+    width:100%;
+    height:329x;
+}
+.Top8Mygtukas{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+height: 40px;
+width: 203px;
+border-radius:30px;
+background-color:#6F2CFF;
+color:White;
+text-decoration: none;
+cursor: pointer;
+margin-bottom:50px;
+}
+.Top8{
+    background-color:#F5F5F5;
+}
+.priekis{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.Top7Stulpeliai{
+    display:flex;
+    padding-bottom:100px;
+}
+.Top7StulpNuotrauka{
+    width:50px;
+    height:50px;
+}
+.Tekstas34{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+padding-top:15px;
+padding-bottom:55px;
+}
+.KortelesTekstoLangas{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-bottom:35px;
+}
+.Top7Kartu{
+    display:flex;
+    padding-bottom:20px;
+}
+.Tekstas18{
+    padding-top:40px;
+}
+.Side1{
+    padding-left:60px;
+}
+.Top7{
+    background-color:white;
+}
+.Eilute1, .Eilute2, .Eilute3{
+    display:flex;
+    width:100%;
+    height:150px;
+}
+.blockas1, .blockas2{
+    width:50%;
+    padding-left:10px;
+    border-left:1px solid #E0E0E0;
+}
+.langas{
+    padding-left:3%;
+    height:700px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:left;
+}
+.KortelesTekstoLangas{
+    background:white;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    height:50%;
+}
+.KortelesNuotrauka{
+   margin-top:50px;
+   width:100%;
+   height:50%;
+}
+.Korteles{
+    width:20%;
+}
+.rodykle{
+    width:100%;
+    height:10%;
+    transform:translateY(550%);
+    text-decoration: none;
+    cursor: pointer;
+}
+.MygtukasKaire{
+    display:flex;
+    justify-content:center;
+    padding-right:15px;
+}
+
+.Tekstas32{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color:#6F2CFF;
+width:70%;
+}
+.ImonesNuotrauka1{
+    width:150px;
+    height:35px;
+}
+.Nuotrauka1{
+    text-decoration: none;
+    cursor: pointer;
+}
+.ImonesNuotrauka2{
+    width:150px;
+    height:35px;
+}
+.ImonesNuotrauka3{
+    width:64px;
+    height:35px;
+}
+.ImonesNuotrauka1, .ImonesNuotrauka2, .ImonesNuotrauka3{
+    padding-top:15px;
+    padding-bottom:20px;
+}
+.Tekstas31{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.KorteliuLaukas{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.Side1{
+    height:600px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.KortelesTarpas{
+    margin-right:6%;
+}
+.Tekstas20{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    padding-bottom:15px;
+}
+.Tekstas21{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+.Tekstas22
+{
+    width:160px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 35px;
+text-decoration: none;
+cursor: pointer;
+/* identical to box height, or 150% */
+border-bottom: 4px solid #6F2CFF;
+text-align: center;
+
+color: #1C1C1C;
+
+}
+.Tekstas23{
+font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+padding-bottom:30px;
+}
+.Tekstas24{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+}
+.Section{
+    width:100%;
+    display:flex;
+    padding-bottom:100px;
+}
+.Tekstas24{
+    padding-bottom:100px;
+}
+.Tekstas26{
+    width:50%;
+    padding-left:50%;
+    transform:translateX(-25%);
+    text-align:center;
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+}
+.Top4{
+    background-color: #F5F5F5;
+}
+.Tekstas27{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+padding-top:80px;
+}
+.Tekstas28{
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+padding-top:40px;
+padding-bottom:60px;
+}
+.Nuotrauka4{
+    width:70%;
+    height:70%;
+}
+.MygtukasDesine{
+    display:flex;
+    justify-content:center;
+    padding-left:15px;
+}
+.MygtukasBookADemo{
+    color: #6F2CFF;
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 0em;
+    text-align: center;
+    width:180px;
+    height:40px;
+    border-radius:30px;
+}
+.Elementai4{
+    display:flex;
+    justify-content:center;
+    padding-bottom:70px;
+}
+.MygtukasSeeProducts{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color:#6F2CFF;
+    text-decoration: none;
+    cursor: pointer;
+    color:#FFFFFF;
+    width:180px;
+    height:40px;
+    border-radius:30px;
+    margin-right:20px;
+}
+.Top5EiluteChild{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    width:33.33%;
+    text-align:center;
+    align-items:center;
+}
+.Top5Nuotrauka{
+    width:60px;
+    height:50px;
+}
+.SectionBlock{
+    width:33.33%;
+    display:flex;
+    justify-content:center;
+    flex-flow:column;
+}
+.Top5Eilute1, .Top5Eilute2{
+    width:100%;
+    display:flex;
+    height:300px;
+    justify-content:center;
+}
+.tarpas{
+    padding-bottom:90px;
+}
+.Tekstas29{
+    font-family: Roboto;
+font-size: 19px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+}
+.Tekstas30{
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+width:50%;
+}
+.NuotraukosVidurys{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+.Top5{
+    background-color: white;
+}
+.Tekstas25{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family: Roboto;
+font-size: 19px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.Nuotrauka3{
+    width:60px;
+    height:50px;
+}
+@media (max-width: 1100px) {
+    .Top8Side2{
+        display:none;
+    }
+    .Top3{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .Section{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .SectionBlock{
+        width:100%;
+    }
+    .Top5{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .Eilute1{
+        flex-direction:column;
+    }
+    .Top5EiluteChild{
+        width:100%;
+    }
+    .Top5Eilute1{
+        display:inline-block;
+        height:auto;
+    }
+    .Top5Eilute2{
+        display:inline-block;
+        height:auto;
+    }
+    .Top8Side1{
+        width:100%;
+    }
+    .Blockas1, .Blockas2{
+        width:100%;
+        height:auto;
+    }
+    #Kortele1, #Kortele2{
+        display:none;
+    }
+    #Kortele3{
+        width:50%;
+    }
+    .Top7Stulpeliai{
+        flex-direction:column;
+        width:100%;
+    }
+    .Top7StulpChild{
+        width:100%;
+        justify-content:center;
+        display:flex;
+        align-items:center;
+    }
+    .Top7StulpChildChild{
+      width:80%;
+    }
+    .PaddingRight{
+        margin-right:0;
+    }
+    .PaddingasBottom2{
+        margin-bottom:25px;
+    }
+    .Eilute1, .Eilute2, .Eilute3{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        height:auto;
+        width:100%;
+        padding-bottom:10px;
+    }
+    .blockas1, .blockas2{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+    .Tekstas20{
+        width:140px;
+        padding-right:10px;
+    }
+  }
+  @media (max-width: 900px) {
+    .BarsNuotrauka{
+        display:inline-block;
+    }
+    .Tekstas1, .Tekstas2, .Tekstas3, .Tekstas4, .Tekstas5, .Tekstas6, .Tekstas7{
+        display:none;
+    }
+    .Mygtukas1, .Mygtukas2{
+        display:none;
+    }
+    .Side1{
+        padding:0;
+        margin:0;
+    }
+    .Nuotrauka2{
+        display:none;
+    }
+    .langas{
+        background-color:#F6BED9;
+    }
+  }
+  @media (max-width: 500px) {
+    #fname{
+        width:200px;
+    }
+    .DemoBook{
+        width:100px;
+    }
+}

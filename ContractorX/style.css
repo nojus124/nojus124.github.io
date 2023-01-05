@@ -1,0 +1,1317 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-width: 100%;
+}
+.Content7Buttons{
+    width:50%;
+}
+.Content7Side1{
+    width:70%;
+}
+.Content7Text3{
+    font-family: Barlow;
+font-size: 28px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom:13px;
+color: #191919;
+width: 100%;
+}
+.Content7Text4{
+    width:100%;
+    color: #989899;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom:33px;
+
+}
+.Content7ImageNavigation{
+    width:100%;
+    padding-top:108px;
+}
+.Content7Text5{
+    width:97px;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom:6px;
+    color: #191919;
+
+}
+.Content7Text6{
+    width:136px;
+    font-family: Barlow;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.8399999737739563px;
+text-align: left;
+    color:#989899;
+
+}
+.Content7Text1{
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.800000011920929px;
+text-align: left;
+color:#FF4D01;
+}
+.Content7Text2{
+    font-family: Barlow;
+font-size: 54px;
+font-weight: 400;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;
+color:black;
+width:80%;
+}
+a{
+    color:white;
+    text-decoration:none;
+    cursor: pointer;
+}
+.Header1Text1{
+    padding-top:177px;
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+.HeaderText1Inside{
+    font-family: Barlow;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align:center;
+    width:660px;
+    color:#FFFFFF;
+}
+.Content4{
+    width:100%;
+    padding-left:5%;
+}
+.Content4Kartu{
+    display:flex;
+}
+.Content4Sides1{
+    width:100%;
+    display:flex;
+    padding-bottom:100px;
+}
+.Content4Text1{
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 400;
+    color:#FF4D01;
+    line-height: 22px;
+    width:80%;
+    letter-spacing: 0.800000011920929px;
+    text-align: left;
+
+}
+.Content4Nuotrauka{
+    width:100%;
+}
+.Content4Text2{
+    font-family: Barlow;
+    font-size: 54px;
+    width:80%;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Content4Text1{
+    padding-bottom:19px;
+}
+.Content4Text3{
+    font-family: Barlow;
+    font-size: 18px;
+    width:80%;
+    padding-top:19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Content4Text4{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.CheckMark{
+    padding-right:11.44px;
+}
+.Content4Kartu:nth-child(4){
+    padding-top:17px;
+}
+.Content4Kartu:nth-child(5){
+    padding-top:19px;
+}
+.Content4Kartu:nth-child(6){
+    padding-top:19px;
+}
+
+.Content4Sides1Content1{
+    width:40%;
+}
+.Content4Sides1Content2{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:left;
+}
+.Header1BackgroundImage{
+    background: #34343499;
+    height:955px;
+    position:absolute;
+    z-index:0;
+    width:100%;
+}
+.Content3Buttons{
+    width:100%;
+    display:flex;
+    justify-content:left;
+    padding-top:35px;
+}
+.Content3{
+    width:100%;
+    height:auto;
+    position:relative;
+    padding-bottom:55px;
+    margin-bottom:55px;
+}
+.Content3Button1{
+    background: #FF4D01;
+    border-radius: 0px;
+    width:169px;
+    height:75px;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin-right:28px;
+}
+.Content3Button2{
+    border: 2px solid black;
+    border-radius: 0px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 75px;
+width:180px;
+height:75px;
+/* identical to box height, or 111% */
+text-align: center;
+color: black;
+}
+.Header1Buttons{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding-top:35px;
+}
+.Content2Buttons{
+    width:100%;
+    display:flex;
+    justify-content:center; 
+}
+.Header1Button1{
+    background: #FF4D01;
+    border-radius: 0px;
+    width:169px;
+    height:75px;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin-right:28px;
+}
+.Header1Button2{
+    border: 2px solid #FFFFFF;
+    border-radius: 0px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 75px;
+width:180px;
+height:75px;
+/* identical to box height, or 111% */
+text-align: center;
+color: #FFFFFF;
+}
+.Content2Button1{
+    background: #FF4D01;
+    border-radius: 0px;
+    width:169px;
+    height:75px;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin-right:28px;
+}
+.Content2Button2{
+    border: 2px solid #FFFFFF;
+    border-radius: 0px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 75px;
+width:180px;
+height:75px;
+/* identical to box height, or 111% */
+text-align: center;
+color: #FFFFFF;
+}
+.Header1Text2{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+.HeaderText2Inside{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;    
+    width:660px;
+    color:#FFFFFF;
+
+}
+a:active{
+    cursor:pointer;
+}
+.Header1{
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index:1;
+}
+.NavigationPadding{
+    margin-right:30px;
+}
+.HeaderImage{
+    width:100%;
+    height:955px;
+    position:absolute;
+    z-index:-1;
+
+}
+.HeaderNavigation
+{width:100%;
+display:flex;
+justify-content:end;
+padding-right:8%;
+padding-top:27px;
+}
+.Content1Sides{
+    width:100%;
+    padding-top:1079px;
+    display:flex;
+}
+.Content1Sides2Text1{
+    padding-top:60px;
+    padding-bottom:15px;
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.800000011920929px;
+    text-align: left;
+    color:#FF4D01;  
+}
+.Content1Sides2Table{
+    width:90%;
+    display:flex;
+    justify-content:center;
+    margin-bottom:49px;
+}
+.Content1Sides2TableElement1{
+    width:33.33%;
+}
+.Content1Sides2TableElement2{
+    width:33.33%;
+}
+.Content1Sides2TableElement3{
+    width:33.33%;
+}
+.Content1AboutCompany{
+    width:100%;
+}
+.Content1AboutCompanyText{
+    border: 2px solid #191919;
+    border-radius: 0px;
+    width:237px;
+    height:75px;
+    text-align:center;
+    line-height:75px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;    
+}
+.Content4BackgroundImage{
+    width:100%;
+    position:absolute;
+    z-index:3;
+}
+.Content4Sides1Content2:nth-child(2){
+    padding-left:3%;
+}
+.Content4BackgroundImageMiddle{
+    position:relative;
+    display:flex;
+    width:100%;
+    height:240px;
+    justify-content:center;
+}
+.Content1Sides2TableElement1Text3{
+    width:100%;
+    font-family: Barlow;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: center;
+    display:inline-block;
+}
+.Content2ButtonColor{
+    border: 2px solid #191919;
+    border-radius: 0px;
+    color:black;
+    width:211px;
+    height:75px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.Content2Text1{
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.800000011920929px;
+    text-align: left;
+    width:100%;
+    color:#FF4D01;
+}
+.Content2Text2{
+    font-family: Barlow;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Content2Sides1{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.Content2Sides11{
+    width:40%;
+}
+.Content4Kartu2{
+    width:50%;
+}
+
+.Content2Sides12{
+    width:60%;
+}
+.Content4BothDivs{
+    display:flex;
+}
+.Content4Sides2TableElement1Text2{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#989899;
+    width:100%;
+}
+.Content2TableElement{
+    width:33.33%;
+}
+.Content2TableElementKartu{
+    display:flex;
+}
+.Content2TableElementKartuCube{
+    width:30px;
+    height:30px;
+    background-color:black;
+}
+.Content3BackgroundImage{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.Content3Layer{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.Content3LayerText1, .Content3LayerText2
+{
+    font-family: Barlow;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    width:50%;
+}
+.Content3LayerText3{
+    width:45%;
+    padding-top:35px;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.Content3LayerMiddle{
+    width:100%;
+    padding-left:5%;
+    display:Flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
+}
+.Content2TableElementNuotrauka{
+    width:70px;
+    height:70px;
+}
+.Content2{
+    padding-bottom:15vw;
+}
+.Content2Table1{
+    padding-top:64px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.Content2Text3{
+    font-family: Barlow;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top:26px;
+    width:80%;
+}
+.Content2Text4{
+    font-family: Barlow;
+    width:80%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #605E5D;
+    padding-bottom:13px;
+
+}
+.Content2TableElementKartuText{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left:10px;
+}
+.Content2{
+    padding-top:25%;
+    padding-left:5%;
+    width:100%;
+}
+.Content1Sides2TableElement1Text1{
+    font-family: Barlow;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: center;
+    width:100%;
+    display:inline-block;
+
+}
+.Content4Sides2TableElement1Text1{
+    width:100%;
+    font-family: Barlow;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    display:inline-block;
+
+}
+.Content1Sides2ColorChange{
+    display:inline-block;
+    color: #FF4D01;
+}
+.Content1Sides2TableElement1Text2{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    height:20px;
+    width:100%;
+}
+.Content1Sides2Text2{
+    font-family: Barlow;
+    font-size: 62px;
+    font-size:7vw;
+    font-weight: 400;
+    line-height: 62px;
+    line-height:7vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #191919;
+    width:65%;
+}
+.Content1Sides2Text3{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #191919;
+    width:75%;
+    padding-top:19px;
+}
+.Content1Sides1Image1{
+    width:90%;
+    height:fit-content;
+    max-height:90%;
+}
+.Content1Sides1{
+    width:40%;
+    display:flex;
+    justify-content:end;
+}
+.Content1Sides2{
+    width:60%;
+    padding-left:4%;
+    display:flex;
+    flex-direction:column;
+}
+.QuoteButton{
+    background-color:#FF4D01;
+    width:140px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+
+}
+.HeaderNavigationElement{
+    color:#FFFFFF;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+cursor:pointer;
+padding:15px;
+}
+.HeaderNavigationElementLast{
+    color:#FFFFFF;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height:30px;
+letter-spacing: 0em;
+text-align: left;
+padding:10px;
+}
+.HeaderNavigationElementButton{
+    color:#FFFFFF;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+padding:10px;
+}
+.Hey{
+    position:relative;
+    z-index:1;
+}
+.Content5Text1{
+    color:#FF4D01;
+    font-family: Barlow;
+font-size: 1rem;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.800000011920929px;
+text-align: left;
+}
+.Content5{
+    width:100%;
+    padding-left:5%;
+}
+.Content5Sides{
+    width:100%;
+    display:flex;
+}
+.Content5Side1, .Content5Side2{
+    width:50%;
+}
+.Content5Side2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.Content5Text2{
+    font-family: Barlow;
+font-size: 54px;
+font-weight: 400;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;
+color:black;
+}
+.Content7BothText{
+    width:100%;
+    display:flex;
+}
+.Content6KartuMygtukai{
+    width:100%;
+    padding-top:66px;
+    display:flex;
+    justify-content:center;
+}
+.Content7{
+    width:100%;
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.800000011920929px;
+text-align: left;
+color: #FF4D01;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:220px;
+}
+.Content7Button1{
+    width:5vw;
+    height:10vh;
+    border: 2px solid #191919;
+    border-radius: 0px;
+    margin-right:25px;
+}
+.Content7Button2{
+    width:5vw;
+    height:10vh;
+    background: #FF4D01;
+border: 2px solid #FF4D01;
+border-radius: 0px;
+}
+.Content7Side2{
+    display:flex;
+    justify-content:end;
+    width:30%;
+}
+.Content6Button1{
+    width:5vw;
+    height:10vh;
+    border: 2px solid #191919;
+    border-radius: 0px;
+    margin-right:25px;
+}
+.Content6Button2{
+    width:5vw;
+    height:10vh;
+    background: #FF4D01;
+    border: 2px solid #FF4D01;
+    border-radius: 0px;
+}
+.Content5ImageNavigation{
+    width:100%;
+    margin-top:80px;
+    display:flex;
+    justify-content:center;
+}
+.NuotraukosRemelis{
+    width:545px;
+    height:611px;
+    position:relative;
+}
+.NuotraukaContent5{
+    width:100%;
+    height:100%;
+}
+.Content6Text1{
+    padding-left:5%;
+    font-family: barlow;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;    
+    color:white;
+    position:absolute;
+    width:80%;
+    top:290px;
+    left:0;
+}
+.Content6Bar{
+    border-bottom:2px solid #989899;
+    position:absolute;
+    top:490px;
+    left:0;
+    width:90%;
+    margin-left:5%;
+}
+.Content7CardImage{
+    max-width:100%;
+}
+.Content7CardIncludedSide1{
+    width:50%;
+}
+.Content7CardIncludedSide2{
+    width:50%;
+    display:Flex;
+    justify-content:flex-end;
+}
+.Content7CardIncluded{
+    display:flex;
+}
+.Content7CardIncludedCube{
+    width:32px;
+    height:32px;
+    background-color: #FF4D01;
+    border-radius: 0px;
+}
+.Content7Nuotrauka{
+    width:29px;
+    height:29px;
+    margin-right:15px;
+}
+.Content7Card{
+    width:780px;
+    display:flex;
+}
+.Content7CardSide1{
+    width:50%;
+}
+.Content7CardSide2{
+    width:400px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content:center;
+}
+.Content6Text4{
+    display:flex;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #EAEAEB;
+position:absolute;
+top:540px;
+padding-left:5%;
+left:0;
+}
+.Content6Text3{
+    display:flex;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #EAEAEB;
+position:absolute;
+top:540px;
+padding-left:10%;
+left:0;
+}
+.Content6Text2{
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+    color:#EAEAEB;
+
+    position:absolute;
+    top:390px;
+    left:0;
+    width:90%;
+    padding-left:5%;
+}
+.Content6{
+    width:100%;
+    padding-bottom:289px;
+}
+.NuotraukosPadding{
+    margin-right:4vw;
+}
+.Content8ConnectorDivs1{
+    width:100%;
+    display:flex;
+    padding-bottom:66px;
+}
+.Content8{
+    width:100%;
+    height:100%;
+    padding-left:5%;
+}
+.Content9{
+    width:100%;
+    margin-top:75px;
+    background-color:black;
+}
+.Content8Text1{
+    font-family: Barlow;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.800000011920929px;
+text-align: left;
+color:#FF4D01;
+padding-bottom:15px;
+}
+.Content8Text2{
+    font-family: Barlow;
+font-size: 54px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+color:black;
+width:50%;
+}
+.Content8Button1{
+    width:204px;
+    height:75px;
+    line-height:75px;
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+    border: 2px solid #191919;
+border-radius: 0px;
+}
+.Content8ButtonDiv1{
+    width:50%;
+    display:flex;
+    padding-right:5%;
+    justify-content:flex-end;
+}
+.Content8ArticleNuotrauka1{
+    width:80%;
+    padding-bottom:1vw;
+}
+.Content8Laukas{
+    display:flex;
+    width:100%;
+    height:33.33%;
+}
+.Content8PaddingBottom{
+    margin-bottom:3%;
+}
+.Content8ArticleSide2Connected{
+    width:100%;
+    height:33.33%;
+}
+.Content8NuotraukosDiv{
+width:30%;
+}
+.Content8ArticleSide2Connected2{
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.Content8ArticleNuotrauka2{
+    width:100%;
+}
+.Content8ArticleSide1, .Content8ArticleSide2
+{
+    height:100%;
+    width:50%;
+}
+.Content9ConnectedTable1{
+    display:flex;
+    justify-content:left;
+}
+.Content9Cube{
+    width:36px;
+    height:36px;
+    background-color:#FF4D01;
+}
+.Content9Table{
+    display:flex;
+    text-align:center;
+    width:250px;
+    flex-direction:column;
+}
+.Content9Table2{
+    display:flex;
+    text-align:center;
+    width:400px;
+    flex-direction:column;
+}
+.Content9FooterConnected{
+    width:100%;
+    padding-top:139px;
+    padding-bottom:35px;
+    display:flex;
+}
+.Content9FooterSpace1{
+    padding-left:5%;
+}
+.Content9FooterSpace2{
+    display:flex;
+    justify-content:end;
+    padding-right:5%;
+}
+.Content9FooterSpace1, .Content9FooterSpace2{
+    width:50%;
+}
+.Content9FooterText1{
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:#989899;
+}
+.Content9FooterText2{
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:white;
+}
+.FooterSpalva{
+    display:inline;
+    color:#FF4D01;
+}
+.Content9TableConnected{
+    display:flex;
+    padding:27px;
+    border: 3px solid #FF4D01;
+}
+.Content9TableConnected:nth-child(1){
+    margin-bottom:18px;
+}
+.Content9TableConnectedImage{
+    padding-right:16px;
+}
+.Content9Text4{
+    padding-bottom:6px;
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color:white;
+}
+.Content9Text5{
+    font-family: Barlow;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color:white;
+}
+.Content8ArticlesSelector{
+    width:100%;
+    height:100%;
+}
+.Content9MenuLayout{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding-top:145px;
+}
+.Content8ArticlesSides{
+    display:flex;
+    width:100%;
+    height:100%;
+}
+.Content8Text3{
+    width:80%;
+    font-family: Barlow;
+font-size: 34px;
+font-size: 2.3vw;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+color:#191919;
+}
+.pressable{
+    cursor:pointer;
+}
+.Content8Text4{
+    font-family: Barlow;
+    width:80%;
+font-size: 18px;
+font-size:1.2vw;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+color:#605E5D;
+padding-left:25px;
+}
+.Content9Text1{
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+width:200px;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:#EAEAEB;
+padding-bottom:35px;
+}
+.Content9TableSides2{
+    display:flex;
+    flex-wrap:wrap;
+}
+.Content9Text3{
+    font-family: Barlow;
+font-size: 22px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:white;
+padding-bottom:38px;
+}
+.Content9Text2{
+    font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+width:200px;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:#EAEAEB;
+padding-bottom:15px;
+}
+.Content9PaddingRight{
+    margin-right:16px;
+}
+@media (max-width: 820px) {
+    .Content7Card{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .Content7ImageNavigation{
+        width:100%;
+        display:flex;
+        justify-content:center;
+    }
+    .NavElement1, .NavElement2, .NavElement3, .NavElement4{
+        display:none;
+    }
+    .Content2Table1{
+        flex-direction:column;
+    }
+    .Content2TableElement{
+        width:100%;
+        padding-bottom:25px;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+  }
+  @media (max-width: 1200px) {
+    .NuotraukosRemelis:nth-child(2){
+        display:none;
+    }
+    .NuotraukosPadding{
+        margin:0;
+    }
+    .Content2Sides1{
+        display:inline-block;
+    }
+    .Content2Sides11{
+        width:100%;
+    }
+    .Content2Text2{
+        font-size:32px;
+    }
+    .Content2Sides12{
+        width:100%;
+    }
+    .Content2Buttons{
+        display:flex;
+        justify-content:flex-end;
+    }
+  }
+  @media (max-width: 520px) {
+    .Content8Text2{
+        font-size:28px;
+    }
+    .Content7CardSide2{
+        width:90%;
+    }
+    .Content1Sides2TableElement1Text1{
+        font-size:30px;
+    }
+    .Content4Sides2TableElement1Text1{
+        font-size:26px;
+    }
+    .Content4Sides2TableElement1Text2{
+    font-size:14px; 
+    line-height:0px;
+    }
+    .Content1Sides2TableElement1Text1{
+        line-height:0;
+        padding-top:42px;
+    }
+    .Content1Sides2TableElement1Text2{
+        font-size:14px;
+        line-height:14px;
+        word-wrap: normal;
+        padding-top:5px;
+    }
+    .Content1Sides2TableElement1Text3{
+        font-size:30px;
+        line-height:0;
+        padding-top:42px;
+    }
+    .Content6Text1{
+        top:250px;
+    }
+    .Content3LayerText3{
+        width:100%;
+    }
+    }
+    @media (max-width: 460px) {
+        .Content9Text3{
+            text-align:center;
+        }
+        .Content6Text1{
+            top:230px;
+        }
+        .Content9Table2{
+            padding-left:5%;
+        }
+        .Content9TableSides2{
+            justify-content:center;
+
+        }
+        .HeaderText1Inside{
+            font-size:62px;
+        }
+        .Content4Sides1Content2{
+            margin-bottom:45px;
+        }
+    }
+  @media (max-width: 920px) {
+    .Content3LayerText1, .Content3LayerText2{
+        width:100%;
+    }
+    .Content2Text3, .Content2Text4{
+        text-align:center;
+    }
+    .Content1Sides2
+    {
+        width:100%;
+    }
+    .Content1Sides
+    {
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .Content1Sides2Table{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        width:100%;
+    }
+    .Content4Nuotrauka{
+        width:50%;
+    }
+    .Content4Sides1Content1:nth-child(2){
+        width:100%;
+        display:flex;
+        justify-content:flex-end;
+    }
+    .Content4Sides1{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .Content4Text2{
+        width:100%;
+    }
+    .Content4Sides1Content2, .Content4Sides1Content1{
+        width:100%;
+    }
+    .Content7{
+        padding-left:0%;
+        padding-right:0%;
+    }
+  }

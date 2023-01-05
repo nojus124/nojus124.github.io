@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:content-box;
+}
+html, body{
+    height:100%;
+    margin: 0;
+}
+.langas{
+    min-height:800px;
+    width:100%;
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+}
+.ZaidimoLangasTransparent{
+
+    height:100%;
+    width:100%;
+
+}
+.atskirimas{
+    width:100%;
+}
+.first-color-background { 
+	background: #233142; 
+}
+	
+.second-color-background { 
+/* From https://css.glass */
+background: rgba(69, 93, 122, 0.42);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.3px);
+-webkit-backdrop-filter: blur(9.3px);
+border: 1px solid rgba(69, 93, 122, 0.25);
+}
+
+.third-color-background { 
+	background: #f95959; 
+}
+
+.fourth-color-background { 
+	background: #e3e3e3; 
+}
+.first-color { 
+	color: #233142; 
+}
+.second-color { 
+	color: #455d7a; 
+}
+
+.third-color { 
+	color: #db0909; 
+}
+
+.fourth-color { 
+	color: #e3e3e3; 
+}
+.Tekstas1-efektas{
+    text-shadow: 4px 4px 3px rgb(34, 25, 25);
+}
+.ZaidimoLangas{
+    margin-top:20px;
+    margin-bottom:50px;
+    width:95%;
+    border-radius:7px;
+    text-align:center;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.PlayerLangas{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.Tekstas1{
+    text-align:center;
+    font-family: 'Minecraft', sans-serif;
+    font-size:2rem;
+    line-height:50px;
+}
+.wrapperGame{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+.PaddingDiv{
+    position:relative;
+    width:100%;
+    display:flex;
+    min-height:200px;
+}
+.PaddingDiv2{
+    position:relative;
+    width:100%;
+    display:flex;
+}
+.nuotrauka{
+    width:90px;
+    height:120px;
+    background: rgba( 179, 163, 163, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 19.5px );
+-webkit-backdrop-filter: blur( 19.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.nuotrauka:hover{
+    box-shadow: 0px 0px 17px 8px rgba(0,0,0,0.1);
+}
+.footer{
+    width:100%;
+}
+.copyright{
+    position:relative;
+    text-align:right;
+    font-weight:600;
+    font-size:12px;
+    font-family:'Montserrat', sans-serif;
+    padding-bottom:5px;
+    padding-right:5px;
+    color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
+.default1{
+    padding:5px;
+    position:absolute;
+    top:20px;
+    left:50%;
+}
+.default2{
+    padding:5px;
+    position:absolute;
+    top:20px;
+    right:0;
+}
+.Player{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+    /*font-family: 'Minecraft', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size:1.5rem;
+    background-color:#233142;
+    border-radius:20px;
+    width:150px;
+    padding-top:3px;
+    padding-bottom:3px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.TekstoLaukas{
+    width:100%;
+    min-height:60px;
+    text-align:center;
+}
+.DealMygtukas{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+    width:100px;
+    height:30px;
+    display: inline-block;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    line-height:30px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.8);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.MygtukoLine{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:5px;
+    margin-bottom:6px;
+}
+.margin-right-6{
+    margin-right:6px;
+}
+.StartMygtukas{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+    width:100px;
+    height:30px;
+    display: inline-block;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    line-height:30px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.StartMygtukas:active, .DealMygtukas:active{
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+}
+.DealMygtukas:hover, .StartMygtukas:hover{
+    -webkit-box-shadow: -2px 12px 32px -8px rgba(0, 0, 0, 1);
+-moz-box-shadow: -2px 12px 32px -8px rgba(0, 0, 0, 1);
+box-shadow: -2px 12px 32px -8px rgba(0, 0, 0, 1);
+}
+.ikonaKortos{
+    width:20px;
+    height:20px;
+    color:white;
+    fill:white;
+    padding-top:5px;
+    padding-left:5px;
+}
+.AtnaujinamasKiekis1, .AtnaujinamasKiekis2{
+    font-family:'Montserrat', sans-serif;
+    font-weight:bold;
+}
+.talpinimas{
+    width:100%;
+    display:flex;
+}
+.KorteliuKiekis1, .KorteliuKiekis2{
+    margin-left:5px;
+    width:50px;
+    height:30px;
+    line-height:30px;
+    font-family:'Montserrat', sans-serif;
+    background-color:white;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align:left;
+    padding-left:20px;
+    display:flex;
+}
+@keyframes color-changeL {
+    0% { background-color: #233142; }
+    100% { background-color: red; }
+  }
+@keyframes color-changeW {
+    0% { background-color: #233142; }
+    100% { background-color: green; }
+  }
+@media only screen and (min-width: 700px) {
+    .wrapperGame{
+        width:70%;
+        margin:auto;
+    }
+    .PaddingDiv, .PaddingDiv2{
+        width:50%;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .talpinimas{
+        display:inline-block;
+    }
+  }
