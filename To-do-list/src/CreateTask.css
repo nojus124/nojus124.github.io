@@ -1,0 +1,98 @@
+.VisasCreateTask{
+    width:100%;
+    position:absolute;
+    display:none;
+    height:100%;
+    z-index:10;
+    background: rgba( 255, 255, 255, 0.6 );
+    justify-content:center;
+}
+.display{
+    display:none;
+}
+.Buttons{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding-top:75px;
+}
+.CreateButton{
+    background-color:#646ff0;
+    color:white;
+    width:75px;
+    height:35px;
+    line-height:30px;
+    border-radius:4px;
+    cursor:pointer;
+    margin-right:15px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.CancelButton{
+    width:fit-content;
+    padding:10px;
+    background-color:white;
+    font-weight:700;
+    color:rgb(255, 0, 0);
+    cursor:pointer;
+    height:35px;
+    line-height:13px;
+    border-radius:4px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.VisasCreateTaskLangas{
+    margin-top:25px;
+    width:100%;
+    max-width:450px;
+    height:320px;
+    background: rgba( 155, 155, 155, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.CreateTaskText{
+    padding-top:10px;
+    font-size:36px;
+    font-weight:500;
+}
+.TaskSelectionCustom{
+        width:95%;
+        height:45px;
+        padding-left:10px;
+        border-radius:6px;
+}
+.CreateTaskText2{
+    width:100%;
+    text-align:left;
+    padding-bottom:5px;
+    font-size:17px;
+    font-weight:400;
+}
+.TaskInput1{
+    width:95%;
+    padding-left:10px;
+    min-height:30px;
+    border:none;
+    word-wrap:normal;
+    height:auto;
+    margin-bottom:5px;
+    border-radius:5px;
+}
+.TaskInput2{
+    width:200px;
+    min-height:30px;
+    border:none;
+    border-radius:5px;
+}
+.InputWidth{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    padding-left:20px;
+}

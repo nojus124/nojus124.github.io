@@ -1,0 +1,206 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+.App {
+  text-align: center;
+  position:relative;
+  width:100%;
+  height:100%;
+}
+.RemoveMygtukasDiv{
+  width:50%;
+  display:flex;
+  justify-content:right;
+  padding-right:15px;
+  padding-bottom:10px;
+}
+.RemoveMygtukas{
+  width:fit-content;
+  padding:10px;
+  background-color:white;
+  font-weight:700;
+  color:rgb(255, 0, 0);
+  cursor:pointer;
+  height:40px;
+  line-height:17px;
+  border-radius:15px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.InOneLineTaskButtons{
+  display:flex;
+  padding-top:25px;
+}
+.TextFooter{
+  color:white;
+  padding-top:15px;
+}
+.ToDoListTable{
+  width:60%;
+  margin-bottom:100px;
+}
+.SelectionCustom{
+  width:150px;
+  height:45px;
+  padding-left:10px;
+  border-radius:6px;
+}
+.addTask{
+  background-color:#646ff0;
+  width:120px;
+  height:35px;
+  line-height:35px;
+  border-radius:4px;
+  cursor:pointer;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.custom-select-option{
+  height:100px;
+}
+.NoTodosButton{
+  margin-top: 15px;
+  margin-bottom:15px;
+  background-color:#dedfe1;
+  width:max-content;
+  color:#585858;
+  height:70px;
+  line-height:50px;
+  padding:8px;
+  border-radius:10px;
+}
+.TaskElementas{
+  min-height:60px;
+  overflow-wrap:break-word;
+  padding-right:5px;
+  display:flex;
+  width:100%;
+  justify-content:left;
+  align-items:center;
+}
+.Tasks{
+  background-color:#ecedf6;
+  min-height:100px;
+  width:90%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:15px;
+  border-radius:7px;
+}
+.TasksDivs{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+.colorr{
+  width:20px;
+  height:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color:red;
+}
+.colorg{
+  width:20px;
+  height:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color:green;
+}
+.TasksDiv{
+  background-color:#dedfe1;
+  width:97%;  
+  padding-left:10px;
+  color:#282c34;
+  margin-top:10px;
+  margin-bottom:10px;
+  height:auto;
+  display:flex;
+  justify-content:left;
+  text-align:left;
+  flex-direction:column;
+  border-radius:8px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  padding-left:10px;
+}
+.custom-select{
+  display:flex;
+  justify-content:flex-end;
+  width:100%;
+}
+.InOneLineTaskButtonsSide1, .InOneLineTaskButtonsSide2{
+  width:50%;
+}
+.BothDivs{
+  display:flex;
+  padding-top:20px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top:75px;
+}
+.date{
+  width:50%;
+  align-items:left;
+  font-size:calc(12px + 0.4vw);
+  line-height:40px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.NearDivsColor{
+  width:95%;
+  display:flex;
+}
+@media (max-width: 900px) {
+  .ToDoListTable{
+    width:90%;
+  }
+  .TasksDiv{
+    width:95%;
+  }
+  .Tasks{
+    width:100%;
+  }
+  
+}
+@media (max-width: 400px) {
+  .ToDoListTable{
+    width:98%;
+  }
+  .TasksDiv{
+    width:95%;
+  }
+  .Tasks{
+    width:100%;
+  }
+  
+}
